@@ -1,0 +1,16 @@
+{
+  "name": "read-private-variables",
+  "version": "1.0.0",
+  "description": "使用 Viem getStorageAt 读取 Solidity 合约私有变量",
+  "main": "scripts/readStorage.js",
+  "scripts": {
+    "start": "node scripts/readStorage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.35",
+    "viem": "^2.52.0"
+  }
+}
